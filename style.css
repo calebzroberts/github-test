@@ -1,11 +1,9 @@
 * {
     margin:0;
     padding:0;
-    background-color: aliceblue;
 }
 
 body {
-    color:blue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,4 +14,22 @@ h1 {
 p  {
     color:orange;
 }
-/*didnt need any image style*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 8px;
+    text-align:left;
+    border-bottom: 1px solid #ddd;
+}
